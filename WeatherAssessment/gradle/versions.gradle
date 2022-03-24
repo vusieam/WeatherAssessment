@@ -1,0 +1,59 @@
+ext{
+
+    /** gradle dependencies versions **/
+    gradleVersion = '7.1.2'
+
+
+    /** Kotlin core dependencies versions **/
+    kotlinCoreVersion = '1.7.0'
+
+    /** Kotlin dependencies versions **/
+    kotlinVersion = '1.6.10'
+
+
+
+    /** Retrofit dependencies versions **/
+    retrofitVersion = "2.9.0"
+
+    /** Retrofit logging dependencies versions **/
+    retrofitLoggingVersion = '5.0.0-alpha.6'
+
+
+
+    /** Dagger hilt dependencies versions **/
+    daggerHiltVersion = '2.41'
+
+    /** Dagger hilt compiler dependencies versions **/
+    daggerHiltCompilerVersion = '1.0.0'
+
+
+
+
+    /** Google play dependencies versions **/
+    googlePlayVersion = '19.0.1'
+
+    /** Google maps dependencies versions **/
+    googleMapsVersion = '18.0.2'
+
+    /** Google services classpath dependencies versions **/
+    googleServiceClassVersion = '4.3.10'
+
+    /** Google crashlytics dependencies versions **/
+    googleFirebaseCrashlyticsClassVersion = '2.8.1'
+
+    /** Google crashlytics dependencies versions **/
+    googleFirebaseBomVersion = '29.1.0'
+
+
+
+    /** Room database dependencies versions **/
+    roomDatabaseVersion = '2.4.2'
+
+    /** Sql encryption dependencies versions **/
+    sqlCipherVersion= '4.5.1'
+
+
+    /** Lottie dialogs dependency version **/
+    lottieVersion = "3.4.0"
+
+}

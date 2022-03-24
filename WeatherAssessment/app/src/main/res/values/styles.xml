@@ -1,0 +1,75 @@
+<resources>
+
+    <style name="Widget.Theme.ABSAWeatherAssessment.ButtonBar.Fullscreen" parent="">
+        <item name="android:background">@color/black_overlay</item>
+        <item name="android:buttonBarStyle">?android:attr/buttonBarStyle</item>
+    </style>
+
+
+    <style name="boldLargeTextStyle" parent="@style/Widget.AppCompat.TextView">
+        <item name="android:textSize">36sp</item>
+        <item name="fontFamily">@font/nunito_bold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_marginBottom">20dp</item>
+    </style>
+
+    <style name="mediumTextStyle" parent="@style/Widget.AppCompat.TextView">
+        <item name="android:textSize">16sp</item>
+        <item name="fontFamily">@font/nunito_regular</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_marginBottom">20dp</item>
+    </style>
+
+
+    <style name="smallTextStyle" parent="@style/Widget.AppCompat.TextView">
+        <item name="android:textSize">14sp</item>
+        <item name="fontFamily">@font/nunito_regular</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_marginBottom">20dp</item>
+    </style>
+
+
+
+    <style name="BottomNavigationView" parent="@style/TextAppearance.AppCompat.Caption">
+        <item name="android:textSize">16sp</item>
+        <item name="fontFamily">@font/nunito_bold</item>
+        <item name="itemIconTint">@color/overlay_dark_40</item>
+        <item name="itemTextColor">@color/overlay_dark_40</item>
+    </style>
+
+    <style name="BottomNavigationView.Active" parent="@style/TextAppearance.AppCompat.Caption">
+        <item name="android:textSize">18sp</item>
+        <item name="fontFamily">@font/nunito_bold</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+
+
+
+    <style name="BottomNavigation" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="android:background">@drawable/corner_curve_background</item>
+        <item name="itemBackground">@color/white</item>
+        <item name="itemIconTint">@color/white</item>
+        <item name="itemTextColor">@color/white</item>
+        <item name="itemTextAppearanceActive">@style/MyBottomNavigationView.TextAppearance</item>
+        <item name="itemTextAppearanceInactive">@style/MyBottomNavigationView.TextAppearance</item>
+    </style>
+
+    <style name="MyBottomNavigationView.TextAppearance" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:textSize">14sp</item>
+        <item name="fontFamily">@font/nunito_bold</item>
+        <item name="textAllCaps">true</item>
+        <item name="paddingStart">5dp</item>
+        <item name="paddingEnd">5dp</item>
+    </style>
+
+    <style name="MyBottomNavigationView.TextAppearance.Active" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:textSize">16sp</item>
+        <item name="fontFamily">@font/nunito_bold</item>
+        <item name="textAllCaps">true</item>
+        <item name="paddingStart">5dp</item>
+        <item name="paddingEnd">5dp</item>
+    </style>
+
+
+</resources>

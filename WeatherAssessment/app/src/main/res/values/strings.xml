@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">ABSA Weather</string>
+    <string name="degree_symbol">%1$s \u00B0</string>
+    <string name="wind_speed_symbol">%1$s km/h</string>
+    <string name="humidity_symbol">%1$s \%%</string>
+    <string name="pressure_symbol">%1$s mb</string>
+    <string name="weather_icon_description">Weather Image</string>
+    <string name="welcome_text">Discover the weather in the city of your choosing</string>
+    <string name="welcome_small_text">Get to know the current weather in the city of your choosing and radar precipitation</string>
+    <string name="get_started_text">Get Started</string>
+    <string name="search_city_text">Search for city</string>
+    <string name="time_sample_string">01:00 pm</string>
+
+    <string name="sample_temperature_string">13°</string>
+    <string name="humidity">Humidity</string>
+    <string name="humidity_sample_reading_string">57</string>
+    <string name="pressure">Pressure</string>
+    <string name="pressure_sample_reading_string">1015</string>
+    <string name="wind">Wind</string>
+    <string name="wind_speed">Wind speed</string>
+    <string name="wind_speed_string">Speed</string>
+    <string name="wind_gust_string">Gusts</string>
+    <string name="wind_gust_sample_reading_string">2.31</string>
+    <string name="wind_speed_sample_reading_string">0.39</string>
+
+    <string name="menu_item_home">Current</string>
+    <string name="menu_item_search">View by city</string>
+    <string name="menu_item_info">Info</string>
+    <string name="menu_item_close">Exit</string>
+    <string name="city_name">MANZINI,</string>
+    <string name="country_name">Swaziland</string>
+    <string name="sample_date">23 March 2022</string>
+    <string name="sample_weather_description">Cloudy</string>
+    <string name="search_weather_for_city">Search for a city</string>
+</resources>

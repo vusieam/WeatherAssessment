@@ -1,0 +1,186 @@
+{
+  "configChecksum": "be92f106ef594c30f9358a7dd7f7392995ee571220220e3ac876dcb2f2537f22",
+  "targetDirectory": "app/src/main",
+  "categories": [
+    {
+      "name": "localization",
+      "version": {
+        "id": "1.0.0"
+      },
+      "mutable": true,
+      "token": "1647913245274",
+      "files": {
+        "android": [
+          {
+            "fileId": "res/values/respresso.strings.xml",
+            "path": "app/src/main/res/values/respresso.strings.xml",
+            "checksum": "e978db812423cf2fcdf61dd9e639c78f5c9017ef7ce1de0d07b12298c7a26fed",
+            "lastModified": 1647987518757
+          }
+        ]
+      }
+    },
+    {
+      "name": "image",
+      "version": {
+        "id": "1.0.0"
+      },
+      "mutable": true,
+      "token": "1647982707301",
+      "files": {
+        "android": [
+          {
+            "fileId": "res/drawable-mdpi/ic_weather.png",
+            "path": "app/src/main/res/drawable-mdpi/ic_weather.png",
+            "checksum": "cdb4a2fb4c495d1778ad01a9c8e70bd101b8bd18198cc42f66f150ae14019644",
+            "lastModified": 1647987518759
+          },
+          {
+            "fileId": "res/drawable-hdpi/ic_weather.png",
+            "path": "app/src/main/res/drawable-hdpi/ic_weather.png",
+            "checksum": "e49e2bbb2d7917db87c03ae86321bd46242f2133367cd6ed218466b164a05e9d",
+            "lastModified": 1647987518761
+          },
+          {
+            "fileId": "res/drawable-xhdpi/ic_weather.png",
+            "path": "app/src/main/res/drawable-xhdpi/ic_weather.png",
+            "checksum": "6e9f4c99b8caa5db5380b526b107c59706e9e17a8eb62072257aef490abe23eb",
+            "lastModified": 1647987518763
+          },
+          {
+            "fileId": "res/drawable-xxhdpi/ic_weather.png",
+            "path": "app/src/main/res/drawable-xxhdpi/ic_weather.png",
+            "checksum": "2a82bf4d0b86c1b7d2a78911bb4a4778a275313be9837dca653f29f587fd77ea",
+            "lastModified": 1647987518765
+          },
+          {
+            "fileId": "res/drawable-xxxhdpi/ic_weather.png",
+            "path": "app/src/main/res/drawable-xxxhdpi/ic_weather.png",
+            "checksum": "6ea9ce4f47a717347ca5d8e81f790ff08a1c430cdbd1b8df9649868165503c2f",
+            "lastModified": 1647987518768
+          },
+          {
+            "fileId": "res/drawable-mdpi/cloudy.png",
+            "path": "app/src/main/res/drawable-mdpi/cloudy.png",
+            "checksum": "cdb4a2fb4c495d1778ad01a9c8e70bd101b8bd18198cc42f66f150ae14019644",
+            "lastModified": 1647987518770
+          },
+          {
+            "fileId": "res/drawable-hdpi/cloudy.png",
+            "path": "app/src/main/res/drawable-hdpi/cloudy.png",
+            "checksum": "e49e2bbb2d7917db87c03ae86321bd46242f2133367cd6ed218466b164a05e9d",
+            "lastModified": 1647987518772
+          },
+          {
+            "fileId": "res/drawable-xhdpi/cloudy.png",
+            "path": "app/src/main/res/drawable-xhdpi/cloudy.png",
+            "checksum": "6e9f4c99b8caa5db5380b526b107c59706e9e17a8eb62072257aef490abe23eb",
+            "lastModified": 1647987518775
+          },
+          {
+            "fileId": "res/drawable-xxhdpi/cloudy.png",
+            "path": "app/src/main/res/drawable-xxhdpi/cloudy.png",
+            "checksum": "2a82bf4d0b86c1b7d2a78911bb4a4778a275313be9837dca653f29f587fd77ea",
+            "lastModified": 1647987518778
+          },
+          {
+            "fileId": "res/drawable-xxxhdpi/cloudy.png",
+            "path": "app/src/main/res/drawable-xxxhdpi/cloudy.png",
+            "checksum": "6ea9ce4f47a717347ca5d8e81f790ff08a1c430cdbd1b8df9649868165503c2f",
+            "lastModified": 1647987518783
+          },
+          {
+            "fileId": "res/drawable-mdpi/sun.png",
+            "path": "app/src/main/res/drawable-mdpi/sun.png",
+            "checksum": "7d436ff61e6ba214b1181d9a6ac90bd38a078d1d9b84e893eb4b2c6dd878dd29",
+            "lastModified": 1647987518785
+          },
+          {
+            "fileId": "res/drawable-hdpi/sun.png",
+            "path": "app/src/main/res/drawable-hdpi/sun.png",
+            "checksum": "e2545a6492c215711eb363d420364a4cb3980fefac767daf6331453f9bfbed91",
+            "lastModified": 1647987518787
+          },
+          {
+            "fileId": "res/drawable-xhdpi/sun.png",
+            "path": "app/src/main/res/drawable-xhdpi/sun.png",
+            "checksum": "916a7b3d4c83d7310ffcaea3057f1b24eba1c4393cb73bdbc984d6a0aaf76fbf",
+            "lastModified": 1647987518791
+          },
+          {
+            "fileId": "res/drawable-xxhdpi/sun.png",
+            "path": "app/src/main/res/drawable-xxhdpi/sun.png",
+            "checksum": "e3d5c810332463dcaa7c2336326fc47a5006dfff19a5fe1bb8db0e9f8f76748e",
+            "lastModified": 1647987518793
+          },
+          {
+            "fileId": "res/drawable-xxxhdpi/sun.png",
+            "path": "app/src/main/res/drawable-xxxhdpi/sun.png",
+            "checksum": "556755f2447418da39212493f5919a952d05e43f9808066eae06a13228c98c7f",
+            "lastModified": 1647987518796
+          },
+          {
+            "fileId": "res/drawable-mdpi/rain.png",
+            "path": "app/src/main/res/drawable-mdpi/rain.png",
+            "checksum": "b9c6af5c173a987ab683a3001697f5e52398a28afa8ef590cb4f683b895f8225",
+            "lastModified": 1647987518799
+          },
+          {
+            "fileId": "res/drawable-hdpi/rain.png",
+            "path": "app/src/main/res/drawable-hdpi/rain.png",
+            "checksum": "9d4f7d69cf3742bf08e100d0f30f253f78225bc4f3c302414de7d304c0147292",
+            "lastModified": 1647987518800
+          },
+          {
+            "fileId": "res/drawable-xhdpi/rain.png",
+            "path": "app/src/main/res/drawable-xhdpi/rain.png",
+            "checksum": "121dab5efe2f8c409abd042b0ea7f95ca5fd8e0af1d3942087024b7107bbd72b",
+            "lastModified": 1647987518802
+          },
+          {
+            "fileId": "res/drawable-xxhdpi/rain.png",
+            "path": "app/src/main/res/drawable-xxhdpi/rain.png",
+            "checksum": "88acd090c0f1b2dafa28fe6ca76ad8845ff29faf9f93a133f84a350aa8a48804",
+            "lastModified": 1647987518804
+          },
+          {
+            "fileId": "res/drawable-xxxhdpi/rain.png",
+            "path": "app/src/main/res/drawable-xxxhdpi/rain.png",
+            "checksum": "1c24c38805db1fae0bc4cd682bb418e0c372621702f3139472b095df104fb0d8",
+            "lastModified": 1647987518807
+          },
+          {
+            "fileId": "res/drawable-mdpi/rainy.png",
+            "path": "app/src/main/res/drawable-mdpi/rainy.png",
+            "checksum": "a98f12637299cfbd8805dee13c584162ec0ea76f99019bcd8f29046a993c3a07",
+            "lastModified": 1647987518809
+          },
+          {
+            "fileId": "res/drawable-hdpi/rainy.png",
+            "path": "app/src/main/res/drawable-hdpi/rainy.png",
+            "checksum": "1bb31d62593cc2b41d5f7dd2bd884f86cc014fb8e136ad4697d122fd6dd164a0",
+            "lastModified": 1647987518849
+          },
+          {
+            "fileId": "res/drawable-xhdpi/rainy.png",
+            "path": "app/src/main/res/drawable-xhdpi/rainy.png",
+            "checksum": "67653f8211526081f98e378705d230a01f79152371f5397956d2dbe3a69acd91",
+            "lastModified": 1647987518901
+          },
+          {
+            "fileId": "res/drawable-xxhdpi/rainy.png",
+            "path": "app/src/main/res/drawable-xxhdpi/rainy.png",
+            "checksum": "dc3f45aa352860c6bf5ec2ff6ab932409d6a548037520fb3775140ea153b39d7",
+            "lastModified": 1647987518954
+          },
+          {
+            "fileId": "res/drawable-xxxhdpi/rainy.png",
+            "path": "app/src/main/res/drawable-xxxhdpi/rainy.png",
+            "checksum": "a34be6181d4c876e75585a7d901a9ddb723e4cfdf3f78494009679b39857c11d",
+            "lastModified": 1647987518971
+          }
+        ]
+      }
+    }
+  ]
+}

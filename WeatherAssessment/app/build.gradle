@@ -1,0 +1,98 @@
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+    id 'kotlin-kapt'
+    id 'dagger.hilt.android.plugin'
+    id 'com.google.gms.google-services'
+    id 'com.google.firebase.crashlytics'
+    id 'hu.ponte.respresso'
+}
+
+android {
+    compileSdk 32
+    defaultConfig {
+        applicationId "co.za.vusieam.mobile.absaweatherassessment"
+        minSdk 23
+        targetSdk 32
+        versionCode 1
+        versionName "1.0.1"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_11.toString()
+    }
+    buildFeatures {
+        viewBinding true
+    }
+}
+
+respresso {
+    projectToken "869dbced-6320-47a1-9bc5-e29450a2f8ef"
+    resources {
+        require "localization:1.0.0"
+        //require "color:1.0.0"
+        //require "appIcon:1.0.0"
+        require "image:1.0.0"
+        //require "font:1.0.0"
+    }
+
+    server "https://app.respresso.io"
+}
+
+
+dependencies {
+    implementation "androidx.core:core-ktx:$kotlinCoreVersion"
+    implementation "androidx.appcompat:appcompat:$appCompactionVersion"
+    implementation "com.google.android.material:material:$materialVersion"
+    implementation "androidx.constraintlayout:constraintlayout:$constraintLayoutVersion"
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation project(path: ':aesthetic_v20')
+    testImplementation "junit:junit:$junitVersion"
+    androidTestImplementation "androidx.test.ext:junit:$junitTestVersion"
+    androidTestImplementation "androidx.test.espresso:espresso-core:$espressoCoreVersion"
+
+    implementation "androidx.databinding:databinding-runtime:$dataBindingVersion"
+    implementation "androidx.cardview:cardview:$cardviewVersion"
+
+
+    //region Google services dependencies
+    implementation "com.google.android.gms:play-services-location:$googlePlayVersion"
+    implementation "com.google.android.gms:play-services-maps:$googleMapsVersion"
+
+    implementation platform("com.google.firebase:firebase-bom:29.1.0")
+    implementation "com.google.firebase:firebase-database-ktx"
+
+    implementation 'com.google.firebase:firebase-crashlytics-ktx'
+    implementation 'com.google.firebase:firebase-analytics-ktx'
+    //endregion
+
+
+    //region Retrofit for network communication dependencies
+    implementation "com.squareup.retrofit2:retrofit:$retrofitVersion"
+    implementation "com.squareup.retrofit2:converter-gson:$retrofitVersion"
+    implementation "com.squareup.okhttp3:logging-interceptor:$retrofitLoggingVersion"
+    //endregion
+
+
+    //region Dagger Hilt for dependency injection
+    implementation "com.google.dagger:hilt-android:$daggerHiltVersion"
+    kapt "com.google.dagger:hilt-android-compiler:$daggerHiltVersion"
+    //kapt "androidx.hilt:hilt-compiler:$daggerHiltCompilerVersion"
+    //endregion
+
+
+    implementation "com.airbnb.android:lottie:$lottieVersion"
+
+
+}
